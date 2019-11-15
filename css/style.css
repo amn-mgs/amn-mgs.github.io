@@ -1,0 +1,24 @@
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    margin: 1cm 0.5cm;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1)
+}
+h1{
+    color: blue;
+    font-family: serif;
+    border-bottom: bisque dotted;
+    border-right: solid pink;
+    height: 2cm;
+    width: 10cm;
+    text-align: center;
+}
